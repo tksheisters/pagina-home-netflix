@@ -1,2 +1,2 @@
-# pagina-home-netflix
+# Gameflix ;)
 Imitação da Netflix ao meu gosto.
