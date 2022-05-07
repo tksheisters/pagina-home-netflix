@@ -1,0 +1,110 @@
+/* Elementos base */
+
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Calibri';
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-weight: 0;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+header nav a{
+    color: rgb(190, 190, 190);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+/* Filme principal */
+
+.filme-principal{
+    margin-top: 10px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/jogo1/capa.png');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filme-principal .container{
+    margin-left:  5%;
+    margin-bottom: 20px;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    margin-top: 10%;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+    transition: .6s ease all;
+    width: 200px;
+}
+
+.botao .icone{
+    margin-bottom: 5px;
+}
+
+.botao:hover{
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.box-jogo{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-jogos{
+    margin-top: 20px;
+}
